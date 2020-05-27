@@ -1,14 +1,12 @@
 <!DOCTYPE html>
 <!-- Code By Webdevtrick ( https://webdevtrick.com )-->
 <html lang="en" >
-  {% load staticfiles %}
   {% load static %}
-  <script src="{% static 'function.js' %}"></script>
-  <meta charset="UTF-8">
+    <meta charset="UTF-8">
   <title>Image Upload</title>
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css'>
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css'>
-  <link rel="stylesheet" href="{% static 'style.css' %}">
+  <link rel="stylesheet" href="{% static '/css/style.css' %}">
 <body>
   
 <div class="container animated bounce">
@@ -25,8 +23,7 @@
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-<script  src="./function.js"></script>
-
+<script  src="{% static './js/function.js' %}"></script>
 </body>
 </html>
 
