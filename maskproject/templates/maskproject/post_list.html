@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <!-- Code By Webdevtrick ( https://webdevtrick.com )-->
 <html lang="en" >
-<head>
+  {% load staticfiles %}
+  {% load static %}
+  <script src="{% static 'function.js' %}"></script>
   <meta charset="UTF-8">
-  <title>Image Upload Preview | Webdevtrick.com</title>
+  <title>Image Upload</title>
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css'>
-<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css'>
-<link rel="stylesheet" href="./style.css">
-
-</head>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css'>
+  <link rel="stylesheet" href="{% static 'style.css' %}">
 <body>
   
 <div class="container animated bounce">
