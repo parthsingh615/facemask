@@ -16,6 +16,7 @@ function readURL(input) {
       $('#preview').hide();
       $('#preview').fadeIn(500);
       $('.custom-file-label').text(filename);
+	  $('.custom-file').hide();
     }
     reader.readAsDataURL(input.files[0]);
   }
